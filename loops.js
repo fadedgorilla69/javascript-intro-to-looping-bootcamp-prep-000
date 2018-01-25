@@ -19,4 +19,15 @@ function forLoop(array) {
 
   return array
 }
+//
+while ([condition]) {
+  [loopBody]
+}
+
+function whileLoop(n){
+  
+}
+
+
+
 
