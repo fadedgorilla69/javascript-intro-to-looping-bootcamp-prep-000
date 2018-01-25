@@ -10,6 +10,7 @@ for (var i = 1; i < 100; i++){
 
 function forLoop(array){
   for (let i = 0; i < 25; i++){
-    array.unshift("I am" + `${i}` + "strange loop");
+    array.unshift("I am 1 strange loop");
   }
+  
 }
