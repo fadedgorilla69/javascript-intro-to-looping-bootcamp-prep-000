@@ -8,9 +8,15 @@ for (var i = 1; i < 100; i++){
   console.log("Hello World the " + i + "time");
 }
 
-function forLoop(array){
-  for (let i = 0; i < 25; i++){
-    array.unshift("I am 1 strange loop");
+function forLoop(array) {
+  for (let i = 0; i < 25; i++) {      //this sets the 'standards'
+    if (i === 1) {                    //this begins the first condition
+      array.push("I am 1 strange loop.")
+    } else {            //this represents the second level of conditions
+      array.push(`I am ${i} strange loops.`)
+    }
   }
-  
+
+  return array
 }
+
